@@ -3,7 +3,7 @@
 The goal of this project was to come up with a simple (and fun) idea that would allow me to work on both my Python and C skills.  The result, as I am pretty sure you are aware, was a way to play Sudoku.  
 
 This allowed me to work on a couple of things completely new to me:
-1.  A GUI in Python:  hello [Tkinter](#https://docs.python.org/3/library/tkinter.html)!
+1.  A GUI in Python:  hello [Tkinter](https://docs.python.org/3/library/tkinter.html)!
 2.  Extending Python with C
 
 And work on a couple of things not-so-new to me:
@@ -31,9 +31,7 @@ And work on a couple of things not-so-new to me:
 
 This code was developed using MacOS; therefore, the installation steps are for MacOS.  I hope to test install/setup on other OSes one of these days (time will tell...).
 
->:exclamation:**IMPORTANT**:exclamation:<br> Python version should be >= 3.7.5.  Sorry if that is an inconvenience.  
-
-I highly recommend pyenv to make handling environment/versions easy.  Check out this cool guide [here](#https://alysivji.github.io/setting-up-pyenv-virtualenvwrapper.html).
+>:exclamation:**IMPORTANT**:exclamation:<br> Python version should be >= 3.7.5.  Sorry if that is an inconvenience.  I highly recommend pyenv to make handling environment/versions easy.  Check out this cool guide [here](https://alysivji.github.io/setting-up-pyenv-virtualenvwrapper.html).
 
 #### Step 1: Clone this repository
 
@@ -86,10 +84,28 @@ virtualenvwrapper.user_scripts creating /Users/user/.virtualenvs/sudoku_player/b
 
 ![Sudoko player](./sudoku_player.png)
 
+## Tests
+
+There are some tests included w/ the project in order to test out the board validation and board solving functionality.  The command below show run the tests (sorry for the lack of color in the output).
+
+```console
+(sudoku_player) sudoku_player user$ pytest test_sudoku_helper.py
+==================================================================== test session starts ====================================================================
+platform darwin -- Python 3.7.5, pytest-6.1.2, py-1.9.0, pluggy-0.13.1
+rootdir: .../sudoku_player
+plugins: cov-2.10.1
+collected 8 items
+
+test_sudoku_helper.py ........                                                                                                                        [100%]
+
+===================================================================== 8 passed in 0.04s =====================================================================
+```
+
 ## TODO
 
 - Allow for choice of new board to be easy, medium or hard
 - Allow for choosing local board if request to get new puzzle from web board fails
+- More tests
 - Validation is in play, so allow for hints?
 - Save a board? Users?
 - Performance of board solving?
