@@ -29,9 +29,11 @@ And work on a couple of things not-so-new to me:
 
 ## Setup
 
-This code was developed using MacOS; therefore the installation steps are for MacOS.  I hope to test install/setup on other OSes one of these days (time will tell...).
+This code was developed using MacOS; therefore, the installation steps are for MacOS.  I hope to test install/setup on other OSes one of these days (time will tell...).
 
->:exclamation:**IMPORTANT**:exclamation:<br> Python version should be >= 3.7.5.  Sorry if that is an inconvenience.  I highly recommend pyenv to make handling environment/versions easy.  Check out this cool guide [here](#https://alysivji.github.io/setting-up-pyenv-virtualenvwrapper.html).
+>:exclamation:**IMPORTANT**:exclamation:<br> Python version should be >= 3.7.5.  Sorry if that is an inconvenience.  
+
+I highly recommend pyenv to make handling environment/versions easy.  Check out this cool guide [here](#https://alysivji.github.io/setting-up-pyenv-virtualenvwrapper.html).
 
 #### Step 1: Clone this repository
 
