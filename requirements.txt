@@ -82,7 +82,6 @@ sphinxcontrib-jsmath==1.0.1
 sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.4
 stevedore==3.2.2
-sudoku-helper==1.0.0
 testfixtures==6.15.0
 tokenize-rt==4.0.0
 toml==0.10.2
